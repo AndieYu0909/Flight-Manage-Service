@@ -1,0 +1,23 @@
+/*This file handles the style of the flight list table*/
+.FlightList {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+    
+  table {
+    border: 4px solid blue;
+    width: 1700px;
+    height: 500px;
+    background-color: aliceblue;
+  }
+    
+  th {
+    border-bottom: 2px solid blue;
+  }
+    
+  td {
+    text-align: center;
+  }
